@@ -1,6 +1,6 @@
-package pl.sdacademy;
+package pl.sdacademy.v2;
 
-public class Person {
+public class Person implements Entity {
     private int id;
     private String firstName;
     private String lastName;
@@ -54,9 +54,11 @@ public class Person {
     @Override
     public String toString() {
         return "Person{" +
-                "firstName='" + firstName + '\'' +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", age=" + age +
                 '}';
     }
 }
+

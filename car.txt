@@ -1,0 +1,2 @@
+2, Fiat Punto, 180
+5, Ford Mondeo, 252
